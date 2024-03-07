@@ -19,7 +19,7 @@
   </div>
   <!-- Navbar end -->
   <div class="w3-display-middle">
-    <h1 class="w3-jumbo w3-animate-top">Правописни грешки</h1>
+    <h1 class="w3-jumbo w3-animate-top">Правописни грешки </h1>
     <hr class="w3-border-grey" style="margin:auto;width:40%">
   </div>
   <!-- Image container start -->
@@ -43,14 +43,14 @@
         var randomIndex;
 
         do {
-          randomIndex = Math.floor(Math.random() * 20) + 1;
+          randomIndex = Math.floor(Math.random() * 21) + 1;
         } while (seen.includes(randomIndex));
           
         seen.push(randomIndex);
         console.log(seen)
         console.log(seen)
 
-        if (seen.length > 19) {
+        if (seen.length > 20) {
           seen = [];
         }
 
