@@ -45,8 +45,9 @@
         do {
           randomIndex = Math.floor(Math.random() * 20) + 1;
         } while (seen.includes(randomIndex));
-
+          
         seen.push(randomIndex);
+        console.log(seen)
         console.log(seen)
 
         if (seen.length > 19) {
