@@ -24,7 +24,7 @@
   </div>
   <!-- Image container start -->
   <div class="image-container">
-    <img class = 'image' id="myImage" src="https://img.cms.bweb.bg/media/images/640x/Sep2015/2110878991.webp" alt="Image" >
+    <img class = 'image' id="myImage" src="https://i.imgur.com/xsIuUvu.png" alt="Image" >
   </div>
   <!-- Image container end -->
   <div class="w3-display-bottomleft w3-padding-large">
@@ -43,13 +43,13 @@
         var randomIndex;
 
         do {
-          randomIndex = Math.floor(Math.random() * 16) + 1;
+          randomIndex = Math.floor(Math.random() * 23) + 1;
         } while (seen.includes(randomIndex));
 
         seen.push(randomIndex);
         console.log(seen)
 
-        if (seen.length > 16) {
+        if (seen.length > 21) {
           seen = [];
         }
 
